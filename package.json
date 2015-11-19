@@ -1,0 +1,30 @@
+{
+  "name": "tapeify",
+  "version": "0.0.2",
+  "description": "ES6 complaint tape runner",
+  "bin": "./bin/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dacodekid/tapeify.git"
+  },
+  "keywords": [
+    "tape",
+    "tape-runner",
+    "es6",
+    "es2015"
+  ],
+  "author": "dacodekid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dacodekid/tapeify/issues"
+  },
+  "homepage": "https://github.com/dacodekid/tapeify#readme",
+  "devDependencies": {
+  },
+  "peerDependencies": {
+    "tape": "^4.2.2"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+  }
+}
