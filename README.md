@@ -9,7 +9,7 @@ Yet another, but flexible [tape](https://github.com/substack/tape) runner. Just 
 ## CLI
 `tapeify 'test/*.js' --compiler 'babel-register'`
 
-You could load any number of modules by adding more `--compiler or -c` optional parameter.  These modules will be required before `tape` runs. It is always good practice to send your command line argument within `quotes`.
+You could load any number of modules by adding more `--compiler or -c` optional parameter.  These modules will be required before `tape` runs.
 
 ### CLI options
 
