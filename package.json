@@ -1,6 +1,6 @@
 {
   "name": "tapeify",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ES6 complaint tape runner",
   "bin": "./bin/index.js",
   "repository": {

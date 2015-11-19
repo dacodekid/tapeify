@@ -9,7 +9,7 @@ function append(val, def) {
 }
 
 program
-  .version('0.0.2')
+  .version('0.0.3')
   .usage('[options] <keywords>')
   .option('-c, --compiler [compilers]',
             'Require compilers [ie: babel-register / coffeescript]', append, [])
