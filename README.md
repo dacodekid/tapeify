@@ -1,4 +1,4 @@
-# tapeify (1.0.0)
+# tapeify (1.1.0)
 
 Yet another, but a bit flexible [tape](https://github.com/substack/tape) runner. Just pass any module you would like to be loaded along with `tape` tests - like `babel` or `coffeescript`.
 

@@ -1,7 +1,7 @@
 {
   "name": "tapeify",
-  "version": "1.0.0",
-  "description": "ES6 complaint tape runner",
+  "version": "1.1.0",
+  "description": "Yet another, but flexible tape runner for ES6 / Coffeescript or any other JS variants.",
   "bin": "./bin/index.js",
   "repository": {
     "type": "git",
@@ -21,8 +21,5 @@
   "homepage": "https://github.com/dacodekid/tapeify#readme",
   "peerDependencies": {
     "tape": "^4.2.2"
-  },
-  "dependencies": {
-    "commander": "^2.9.0"
   }
 }

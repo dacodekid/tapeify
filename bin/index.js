@@ -1,25 +1,14 @@
 #!/usr/bin/env node
 'use strict';
 
-const program = require('commander');
-
-function append(val, def) {
-  def.push(val);
-  return def;
+const arg = process.argv.slice(2);
+for (let i = 0; i < arg.length; i++) {
+  switch(arg[i]) {
+    case '-c':
+    case '--compiler':
+      require(arg[++i]);
+      break;
+  }
 }
 
-program
-  .version('1.0.0')
-  .usage('[options] <keywords>')
-  .option('-c, --compiler [compilers]',
-            'Require compilers [ie: babel-register / coffeescript]', append, [])
-  .parse(process.argv);
-
-process.argv = process.argv.slice(0,2).concat(program.args);
-
-if(program.compiler.length) {
-  program.compiler.forEach(compiler => {
-    require(compiler);
-  });
-}
 require(require.resolve('tape/bin/tape'));
